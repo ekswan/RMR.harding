@@ -25,7 +25,8 @@ Plot   12x12m(12 setup & originally sampled, but as you noted control sites were
 Subplot 3x3m (4 per plot)  
 Quadrat 1x1m (5 per Subplot) 
 
-###Notes
+###Meta-data
+Don Canestro
 In summary, 4 years of sampling 1 before and three after planning.
 I also have data on plug grow out and which spp. seeds had best germination rates.
 I also have plot images from 2006 and 2009.
