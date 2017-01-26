@@ -72,7 +72,11 @@ ggplotly(p)
 p <- ggplot (data, aes(plot.treatment, density.Napu)) + geom_boxplot() + facet_wrap(~subplot.treatment)
 ggplotly(p)
 
+#nested GLM simple
+m <- glm(total.native.density ~plot.treatment/subplot.treatment, family = poisson, data = data)
+summary(m)
+anova(m, test = "Chisq")
 
-
+#can also use lme4 package and nest with the + (1|factor) code
 
 ```
